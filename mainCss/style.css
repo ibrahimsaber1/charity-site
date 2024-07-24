@@ -410,3 +410,85 @@ nav {
 .item-right-sec2 .about-img img {
   width: 100%;
 }
+
+/* section 3 css */
+
+.sec-3{
+  padding: 30px 15%;
+}
+
+.parent-section-2 {
+  width: 100%;
+  background-color: var(--white);
+}
+.parent-section-3 .parent-flex {
+  width: 100%;
+}
+.parent-section-3 .parent-flex .item-sec3 {
+  width: calc(97% / 3);
+  background-color: var(--lightgray);
+}
+.item-sec3 .properties-card3 {
+  /* border: solid 1px; */
+}
+
+.item-sec3 .properties-card3 .properties-img3 {
+  width: 100%;
+}
+.properties-card3 .properties-img3 img {
+  width: 100%;
+}
+
+.properties-card3 .properties-caption3 {
+  /* border: solid; */
+  padding: 20px 20px 9px 20px;
+}
+.properties-caption3 h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+.properties-caption3 h3 a {
+  color: var(--black);
+  transition: all 0.9s linear;
+}
+.item-sec3:hover .properties-caption3 h3 a {
+  color: var(--orenge);
+  transition: all 0.9s linear;
+}
+.properties-caption3 p {
+  font-size: 1.001rem;
+  margin-bottom: 1rem;
+  line-height: 1.7rem;
+  color: var(--gray);
+}
+.properties-card3 .properties-footer3 {
+  /* border: solid; */
+  padding: 20px;
+}
+.properties-footer3 .class-day3 span {
+  color: var(--lightgreen);
+  font-size: 18px;
+  font-weight: 700;
+}
+.properties-footer3 .class-day3 p {
+  color: var(--light-black);
+  font-size: 14px;
+  margin: 8px 0;
+}
+.class-day3 .btn_03 {
+  text-transform: capitalize;
+  padding: 17px 3.2rem;
+  border: 2px solid var(--orenge);
+  background-color: var(--orenge);
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+
+.item-sec3:hover .class-day3 .btn_03 {
+  border: 2px solid var(--orenge);
+  background-color: transparent;
+  color: var(--orenge);
+  transition: all 0.2s linear;
+}
+
+/* section 4 */
