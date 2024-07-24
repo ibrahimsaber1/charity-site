@@ -78,14 +78,6 @@ Contributions are welcome! Please follow these steps:
     ```
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions or suggestions, feel free to contact me at charity90@gmail.com.
-
 ---
 
 **Ibrahim Saber**
