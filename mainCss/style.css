@@ -410,11 +410,12 @@ nav {
 .item-right-sec2 .about-img img {
   width: 100%;
 }
-
-/* section 3 css */
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* -------------------------------------------- section 3 css -----------------------------------------------*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .sec-3{
-  padding: 30px 15%;
+  padding: 30px 10%;
 }
 
 .parent-section-2 {
@@ -477,10 +478,10 @@ nav {
 }
 .class-day3 .btn_03 {
   text-transform: capitalize;
-  padding: 17px 3.2rem;
+  padding: 15px 2rem;
   border: 2px solid var(--orenge);
   background-color: var(--orenge);
-  font-weight: 600;
+  font-weight: 500;
   transition: all 0.2s linear;
 }
 
@@ -584,3 +585,4 @@ nav {
 }
 
 /* section 5 */
+
