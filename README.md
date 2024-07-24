@@ -15,7 +15,7 @@ Welcome to the Carity Site project! This project is a website for a charity orga
 
 ## Demo
 
-You can view a live demo of the project [here](https://github.com/ibrahimsaber1/charity-site.git).
+You can view a live demo of the project [here](https://ibrahimsaber1.github.io/charity-site/).
 
 ## Features
 
