@@ -346,3 +346,67 @@ nav {
 .prt-btns-sec1 .btn-right:hover {
   color: var(--white);
 }
+
+/* section 2 css */
+
+.parent-section-2 {
+  background-color: var(--white);
+  width: 100%;
+  padding: 4rem 2rem;
+}
+.parent-section-2 .parent-flex {
+  width: 88%;
+  margin: auto;
+}
+.item-left-sec2 {
+  width: 43%;
+}
+.item-left-sec2 .about-caption2 {
+  padding: 14px;
+}
+
+.item-left-sec2 .about-caption2 .section-tittle2 {
+  width: 90%;
+}
+.about-caption2 .section-tittle2 span {
+  color: var(--lightgreen);
+  font-size: 30px;
+}
+.about-caption2 .section-tittle2 h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 2.2rem 0 3rem 0;
+  color: var(--black);
+}
+.about-caption2 .section-tittle2 p {
+  margin: 1.7rem 0;
+  line-height: 1.8rem;
+  color: var(--gray);
+  font-size: 1.1rem;
+}
+.about-caption2 .btn_02 {
+  text-transform: capitalize;
+  padding: 20px 2.3rem;
+  border: 2px solid var(--orenge);
+  background-color: var(--orenge);
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+
+.about-caption2 .btn_02:hover {
+  border: 2px solid var(--orenge);
+  background-color: transparent;
+  color: var(--orenge);
+  transition: all 0.2s linear;
+}
+
+.item-right-sec2 {
+  width: 48%;
+}
+.item-right-sec2 .about-img {
+  width: 100%;
+}
+
+.item-right-sec2 .about-img img {
+  width: 100%;
+}
