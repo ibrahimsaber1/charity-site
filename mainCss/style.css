@@ -651,3 +651,79 @@ nav {
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* -------------------------------------------- section 6 css -----------------------------------------------*/
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.sec6 {
+  width: 100%;
+  padding: 5rem 2rem;
+}
+.sec6 .parent-section-6 {
+  width: 88%;
+  margin: auto;
+}
+
+.parent-section-6 .section-tittle6 {
+  text-align: center;
+  margin: 2rem 0;
+}
+.parent-section-6 .slick-track6 {
+  /* border: solid; */
+}
+.slick-track6 .single-blogs6 {
+  width: calc(90% / 3);
+}
+.single-blogs6 .blog-img6 {
+  width: 100%;
+}
+.single-blogs6 .blog-img6 img {
+  width: 100%;
+}
+
+.parent-section-6 .blog-caption6 {
+  margin: 13px 0;
+}
+.parent-section-6 .blog-caption6 h3 {
+}
+
+.parent-section-6 .blog-caption6 h3 a {
+  color: var(--light-black);
+  transition: all 0.4s linear;
+  font-size: 1.7rem;
+}
+.parent-section-6 .blog-caption6 h3 a:hover {
+  color: var(--orenge);
+  transition: all 0.4s linear;
+}
+.parent-section-6 .blog-caption6 p {
+  color: var(--gray);
+  font-size: 1rem;
+  margin: 13px 0;
+}
+.blog-caption6 .browse-btn6 {
+  color: var(--orenge);
+  position: relative;
+  transition: all 0.2s linear;
+}
+.blog-caption6 .browse-btn6::after {
+  content: "";
+  position: absolute;
+  background-color: var(--orenge);
+  bottom: -7px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+}
+.blog-caption6 .browse-btn6:hover {
+  letter-spacing: 1.5px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* -------------------------------------------- section 7 css -----------------------------------------------*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* -------------------------------------------- section  css -----------------------------------------------*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
