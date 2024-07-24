@@ -728,5 +728,124 @@ nav {
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/* -------------------------------------------- section  css -----------------------------------------------*/
+/* -------------------------------------------- the Footer -----------------------------------------------*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+footer {
+  background-color: var(--black);
+  padding: 5rem 0;
+}
+.footer-wrapper {
+  /* border: solid #fff; */
+}
+.footer-wrapper .footer-area {
+  width: 85%;
+  margin: auto;
+}
+.footer-area .parent-flex {
+  display: flex;
+  align-items: flex-start;
+}
+.footer-wrapper .footer-padding {
+  padding: 3rem 0;
+}
+.footer-padding .item-foot-7 {
+  flex-basis: calc(91% / 4);
+}
+.more-wdith {
+  flex-grow: 2;
+  line-height: 20px;
+}
+
+.item-foot-7 .footer-logo {
+  width: 80%;
+}
+
+.item-foot-7 .footer-logo img {
+  width: 90%;
+}
+
+.item-foot-7 .footer-tittle {
+  color: var(--white);
+  margin: 1.2rem 0;
+}
+.item-foot-7 .footer-social {
+  width: 50%;
+}
+
+.footer-social li a {
+  padding: 15px;
+  transition: all 0.2s linear;
+  transform: rotatey(180deg);
+}
+.footer-social li a:hover i {
+  transform: rotatey(360deg);
+  transition: all 0.2s linear;
+}
+.footer-social li .fb {
+  background-color: #3b5998;
+}
+.footer-social li .lnk {
+  background-color: #0077b5;
+}
+.footer-social li .ins {
+  background-color: #405de6;
+}
+.footer-social li .yt {
+  background-color: #ff0000;
+}
+.footer-social li {
+  margin-bottom: 2rem;
+}
+.item-foot-7 .single-footer-caption .footer-tittle {
+  padding: 0 10px;
+}
+.single-footer-caption .footer-tittle h4 {
+  margin-bottom: 15px;
+}
+.item-foot-7 .single-footer-caption ul li {
+  margin-bottom: 20px;
+}
+.item-foot-7 .footer-tittle ul li a {
+  color: var(--white);
+}
+.item-foot-7 .footer-tittle ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-tittle .btn_1 {
+  margin-top: 18px;
+  text-transform: capitalize;
+  padding: 20px 1.8rem;
+  border: 2px solid var(--orenge);
+  background-color: var(--orenge);
+  font-weight: 600;
+  transition: all 0.2s linear;
+  color: var(--lightgray);
+}
+
+.footer-tittle .btn_1:hover {
+  border: 2px solid var(--white);
+  background-color: transparent;
+  color: var(--lightgray);
+  transition: all 0.2s linear;
+}
+
+.footer-border {
+  border-top: 2px solid var(--gray);
+  width: 85%;
+  margin: auto;
+  padding-top: 2rem;
+}
+.footer-border .footer-copy-right {
+  color: var(--white);
+  text-align: center;
+}
+
+.footer-copy-right .color-danger {
+  color: var(--lightgreen);
+}
+
+
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* -------------------------------------------- the end of css -----------------------------------------------*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
