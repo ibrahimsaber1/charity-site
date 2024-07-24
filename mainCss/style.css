@@ -228,3 +228,121 @@ nav {
   font-weight: 600;
   transition: all 0.3s linear;
 }
+
+
+/* section 1 styling */
+
+.parent-section-1 {
+  width: 100%;
+  background-color: var(--lightPink);
+  padding: 4rem 2rem;
+}
+.parent-section-1 .parent-flex {
+  width: 88%;
+  margin: auto;
+}
+.parent-flex .item-left {
+  width: 47%;
+  /* border: solid; */
+}
+.parent-flex .item-right {
+  width: 43%;
+  /* border: solid; */
+}
+.item-left .about-img {
+  width: 100%;
+}
+
+.item-left .about-img img {
+  width: 100%;
+}
+.item-right .prt-sec1-text {
+  padding: 2rem;
+}
+.item-right .prt-sec1-text .chd-sec1-text1 {
+  width: 80%;
+}
+.prt-sec1-text .chd-sec1-text1 span {
+  color: var(--lightgreen);
+  margin-bottom: 1.5rem;
+}
+.prt-sec1-text .chd-sec1-text1 h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--black);
+}
+
+.prt-sec1-text .chd-sec1-text1 .text-sec1 {
+  font-size: 17px;
+  color: var(--gray);
+  line-height: 1.7rem;
+  margin-bottom: 2rem;
+}
+.prt-btns-sec1 {
+  width: 80%;
+}
+.prt-btns-sec1 a {
+  color: var(--white);
+}
+.prt-btns-sec1 .btn-left {
+  text-transform: capitalize;
+  padding: 20px 2.3rem;
+  border: 2px solid var(--orenge);
+  background-color: var(--orenge);
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+.prt-btns-sec1 .btn-left:hover {
+  border: 2px solid var(--orenge);
+  background-color: transparent;
+  color: var(--orenge);
+  transition: all 0.2s linear;
+}
+.prt-btns-sec1 .btn-right {
+  border: 2px solid var(--orenge);
+  color: var(--orenge);
+  text-transform: normal;
+  padding: 15px 28px !important;
+  height: 80px;
+  /* -moz-user-select: none; */
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: relative;
+  transition: color 0.4s linear;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  z-index: 1;
+}
+
+.prt-btns-sec1 .btn-right::before {
+  border: 1px solid transparent;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 101%;
+  height: 101%;
+  background: var(--orenge);
+  z-index: -10;
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  transform: scaleX(0);
+  border-radius: 0;
+
+}
+
+.prt-btns-sec1 .btn-right:hover::before {
+  transform: scaleX(1);
+
+  border: 2px solid transparent;
+}
+.prt-btns-sec1 .btn-right:hover {
+  color: var(--white);
+}
